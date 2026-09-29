@@ -42,3 +42,4 @@ for team in teams:
     print(team.number_of_losses())
     print(team.total_points())
     print()
+    
