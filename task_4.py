@@ -7,7 +7,7 @@ class EmployeeSalary:
        self.rest_days = rest_days
        self.email = email
     
-    def hourly_payment(self):
+    def total_payment(self):
         return self.hours * self.hourly_rate
         
     @classmethod
